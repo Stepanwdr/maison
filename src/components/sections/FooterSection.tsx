@@ -9,7 +9,7 @@ export function FooterSection() {
     <footer className="footer" id="contacts">
       <div className="footer-grid">
         <div>
-          <div className="footer-logo">MA<em>I</em>SON DORÉE</div>
+          <div className="footer-logo">MO<em>N</em>TE LEON</div>
           <p className="footer-tagline">Бутик-отель в сердце Еревана. 18 номеров, SPA, авторский сервис.</p>
         </div>
         {cols.map(c => (
@@ -22,7 +22,7 @@ export function FooterSection() {
         ))}
       </div>
       <div className="footer-btm">
-        <span className="footer-copy">© 2024 MAISON DORÉE Boutique Hotel</span>
+        <span className="footer-copy">© 2026 MONTE LEON Boutique Hotel</span>
         <span className="footer-copy">Ереван, Армения</span>
       </div>
     </footer>

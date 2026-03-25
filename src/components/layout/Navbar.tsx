@@ -20,7 +20,7 @@ export function Navbar() {
 
   return (
     <nav className={`nav${scrolled ? ' scrolled' : ''}`}>
-      <span className="nav-logo">MA<em>I</em>SON HOTEL</span>
+      <span className="nav-logo">MO<em>N</em>TE LEON</span>
       <div className="nav-links">
         {LINKS.map(l => <a key={l.href} href={l.href} className="nav-link">{l.label}</a>)}
       </div>
