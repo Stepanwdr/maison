@@ -1,6 +1,6 @@
 'use client';
 
-import {Car, Droplets, Flame, Flower, Gem, Sparkles, Utensils, Waves} from "lucide-react";
+import { Car, Flame, Flower, Utensils, Waves } from "lucide-react";
 
 const FEATURES = [
   { ico:'Utensils', name:'Ресторан',       desc: 'Авторская кухня, избранные вина. Завтрак в стоимости проживания.' },
