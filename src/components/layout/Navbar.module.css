@@ -1,0 +1,56 @@
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 300;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1rem 3.5rem;
+  background: rgba(237, 230, 216, 0.88);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(196, 162, 106, 0.18);
+  transition: box-shadow 0.3s;
+}
+
+.navScrolled {
+  box-shadow: 0 2px 20px rgba(164, 152, 132, 0.18);
+}
+
+.logo {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  color: #2C2820;
+  cursor: none;
+}
+
+.logoAccent {
+  font-style: italic;
+  color: #C4A26A;
+}
+
+.links {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.link {
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8A8278;
+  text-decoration: none;
+  cursor: none;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: #C4A26A;
+}
+
+@media (max-width: 900px) {
+  .nav { padding: 1rem 1.3rem; }
+  .links { display: none; }
+}
