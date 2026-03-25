@@ -5,7 +5,7 @@ export function TestimonialSection() {
       <div className="test-wrap reveal">
         <div className="test-qmark">"</div>
         <blockquote className="test-quote">
-          Маисон Доре — это когда закрываешь глаза и чувствуешь{' '}
+          Монте Леон — это когда закрываешь глаза и чувствуешь{' '}
           <em>запах шампани</em> даже в памяти. Сервис, SPA — всё было безупречно.
         </blockquote>
         <div className="test-divider" />
